@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <title>project2</title>
+
+    <script src="2.js"></script>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <!--nav bar-->
+        <div class="row bg-info text-light align-items-center sticky-top" style="height: 60px;">
+            <div class="col-6">
+                HOME
+            </div>
+            <div class="col-6 d-flex justify-content-end">
+                LOGOUT
+            </div>
+
+        </div>
+
+        <div class="row my-1 justify-content-center" style="height: 200px;">
+            <div class="col-md-5 col-sm-12 border shadow rounded d-flex justify-content-center align-items-center"
+                style="background: rgb(182, 178, 178);
+                 font-family: cursive; 
+                 font-weight: bold;
+                 font-size: 50px;">
+                Form
+            </div>
+        </div>
+        <div class="row my-2 justify-content-center" style="height: 200px;">
+            <div class="col-md-5 col-sm-12  d-flex  flex-column">
+                <div class=" row ">
+                    <div class=" col-12 p-0">
+
+                        <input id="uname" type="text" class="form-control shadow border rounded-pill mb-1"
+                            placeholder="Enter Username">
+                        <input id="pwd" type="password" class="form-control shadow border rounded-pill  mb-1"
+                            placeholder="Enter Password">
+                        <input id="email" type="email" class="form-control shadow border rounded-pill  mb-1"
+                            type="email" placeholder="Enter Email">
+                        <button class="btn btn-primary btn-block shadow border rounded-pill  mb-1 " onclick="sub()">
+                            Submit
+                        </button>
+
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+
+        <!--dynamic block-->
+        <div>
+            <div id="clone" style="visibility: hidden;" class="row my-2 justify-content-center">
+
+                <div class="col-4 d-flex justify-content-center border shadow rounded-pill">
+                    USERNAME :
+                </div>
+                <div class="col-4 d-flex justify-content-center border shadow rounded-pill">
+                    PASSWORD :
+                </div>
+                <div class="col-4 d-flex justify-content-center border shadow rounded-pill">
+                    EMAIL :
+                </div>
+
+            </div>
+
+
+
+
+        </div>
+
+
+
+</body>
+
+</html>
